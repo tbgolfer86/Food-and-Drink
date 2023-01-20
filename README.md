@@ -26,4 +26,4 @@ The app can be used to find new recipes using ingredients one has on-hand. At it
 ## Links
 
 [Link to GitHub Repositorty for Food and Drink Project](https://github.com/jrwesch/FoodAndDrink) <br> 
-[Link to GitHub Pages view of website](https://jrwesch.github.io/FoodAndDrink)
+[Link to GitHub Pages view of website](https://tbgolfer86.github.io/Recipe-Finder/)
