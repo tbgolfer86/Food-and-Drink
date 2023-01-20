@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(248, 88, 2);
+}
+
+/* ************** header section ************** */
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+    padding-left: 2%;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-bottom: -70px;
+}
+
+header p {
+    font-size: 2em;
+    font-weight: bold;
+    white-space: nowrap;
+    padding-top: 36px;
+}
+
+/* ************** main section ************** */
+main {
+    background-color: rgb(248, 88, 2);
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    border-radius: 5px;
+    background-color: #ffdd00;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+}
+
+.food-checkbox {
+    font-size: 1.25rem;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.search p {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: black;
+    padding-left: 2%;
+}
+
+.button-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.select {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.select select {
+    width: 100%;
+    font-size: 1.25rem;
+}
+
+#results-list {
+    padding: 1.25rem;
+}
+
+#drinks-results {
+    padding: 1.25rem;
+}
+
+#searched-recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#searched-drinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ************** footer section styling ************** */
+footer {
+    margin-top: auto;
+    background-color: black;
+}
+
+a {
+    color: #ffdd00;
+    text-decoration: none;
+}
+
+h6 {
+    text-align: center;
+    color: white;
+}

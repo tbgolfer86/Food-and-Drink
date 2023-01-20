@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food and Drink</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    
+  </head>
+
+  <body>
+
+    <header>
+        <h1>Food and Drink</h1>
+        <p class="has-text-primary">Make what you have!</p>
+    </header>
+
+    <main>
+        <div class="outer-container">
+            <div class="inner-container">
+                <h2>Food</h2>
+                <div class="search">
+                  <p>Whats in your fridge?</p>
+                  <div class="button-area">
+                    <form class="box">
+                      <label for="Beef" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Beef">Beef</label>
+                      <label for="Chicken" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Chicken">Chicken</label>
+                      <label for="Fish" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Fish">Fish</label>
+                      <label for="Turkey" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Turkey">Turkey</label>
+                      <label for="Shrimp" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Shrimp">Shrimp</label>
+                      <label for="Pork" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Pork">Pork</label>
+                      <label for="Bacon" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Bacon">Bacon</label>
+                      <label for="Eggs" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Eggs">Eggs</label>
+                      <label for="Milk" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Milk">Milk</label>
+                      <label for="Butter" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Butter">Butter</label>
+                      <label for="Pasta" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Pasta">Pasta</label>
+                      <label for="Rice" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Rice">Rice</label>
+                      <label for="Potato" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Potato">Potato</label>
+                      <label for="Cheese" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Cheese">Cheese</label>
+                      <label for="Garlic" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Garlic">Garlic</label>
+                      <label for="Onion" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Onion">Onion</label>
+                      <label for="Lettuce" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Lettuce">Lettuce</label>
+                      <label for="Asparagus" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Asparagus">Asparagus</label>
+                      <label for="Kale" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Kale">Kale</label>
+                      <label for="Tomato" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Tomato">Tomato</label>
+                      <label for="Broccoli" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Broccoli">Broccoli</label>
+                      <label for="Mushroom" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Mushroom">Mushroom</label>
+                      <label for="Apple" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Apple">Apple</label>
+                      <label for="Orange" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Orange">Orange</label>
+                      <label for="Banana" class="food-checkbox"><input type="checkbox" name="food-ingredient" value="Banana">Banana</label>
+                    </form>
+                    <div>
+                      <button id="food-button" class="button is-rounded is-primary has-text-weight-semibold">Submit</button>
+                      <button id="food-refresh" class="button is-rounded is-danger is-light">Refresh</button>
+                    </div>
+                  </div>
+
+                  <!--Results for Food-->
+                  <div class="columns" id="results-list">
+                    <div id="searched-recipes" class="column is-one-half"></div>
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="inner-container">
+                <h2>Drink</h2>
+                <div class="search">
+                  <p>Select your ingredient:</p>
+                  <div class="button-area">
+                    <div class="select is-multiple">
+                      <select multiple size="8" id="drink-ingredient">
+                        <option value="absinthe">Absinthe</option>
+                        <option value="brandy">Brandy</option>
+                        <option value="rum">Rum</option>
+                        <option value="vodka">Vodka</option>
+                        <option value="whiskey">Whiskey</option>
+                        <option value="tequila">Tequila</option>
+                        <option value="gin">Gin</option>
+                        <option value="bourbon">Bourbon</option>
+                        <option value="pineapple">Pineapple Juice</option>
+                        <option value="white_wine">White Wine</option>
+                        <option value="red_wine">Red Wine</option>
+                        <option value="orange_juice">Orange Juice</option>
+                      </select>
+                    </div>
+                    <div>
+                      <button id="drink-button" class="button is-rounded is-primary has-text-weight-semibold">Submit</button>
+                      <button id="drink-refresh" class="button is-rounded is-danger is-light">Refresh</button>
+                    </div>
+                  </div>
+                  
+                  <!--Results for Drinks-->
+                  <div class="columns" id="drinks-results">
+                    <div id="searched-drinks" class="column is-one-half"></div>
+                  </div>                 
+                </div>
+            </div>    
+        </div>
+    </main>
+
+    <footer>
+        <h6>Food and Drink data from <a target="_blank" href="https://spoonacular.com/food-api"><strong>Spoonacular</strong></a> and <a target="_blank" href="https://www.thecocktaildb.com/api.php"><strong>thecocktaildb</strong></a>.</h6>
+    </footer>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
