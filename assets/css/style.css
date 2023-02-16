@@ -41,6 +41,7 @@ main {
 .outer-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     border-radius: 5px;
     padding-top: 1%;
@@ -143,3 +144,31 @@ h6 {
     text-align: center;
     color: white;
 }
+
+
+
+/************ media queries ************/
+@media screen and (max-width: 992px) {
+   
+  }
+  
+@media screen and (max-width: 768px) {
+    .inner-container {
+        width: 98%;
+    }
+  }
+
+@media screen and (max-width: 475px) {
+    h1 {
+        font-size: 2.75em;
+        font-weight: bold;
+        white-space: nowrap;
+        margin-bottom: -70px;
+    }
+    header p {
+        font-size: 1.5em;
+        font-weight: bold;
+        white-space: nowrap;
+        padding-top: 42px;
+    }
+  }
