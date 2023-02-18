@@ -32,7 +32,7 @@
 ---
 
   ## Usage
-  The app can be used to find new recipes using ingredients one has on-hand. At its current functionality it will search via ingredients but future versions could include searching by food type, excluding ingredients, or by nutritional value. The drink portion could also include the ability to search for specific cocktails.<br>
+  The app can be used to find new recipes using ingredients one has on-hand. At its current functionality it will search via ingredients but future versions could include searching by food type, excluding ingredients, or by nutritional value. The drink portion could also include the ability to search for specific cocktails.<br><br>
   https://tbgolfer86.github.io/Recipe-Finder/
 
   ![Screenshot of Food And Drink Recipe Finder](./assets/images/preview-blank.png)
