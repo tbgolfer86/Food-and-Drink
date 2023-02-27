@@ -33,6 +33,7 @@
 
   ## Usage
   The app can be used to find new recipes using ingredients one has on-hand. At its current functionality it will search via ingredients but future versions could include searching by food type, excluding ingredients, or by nutritional value. The drink portion could also include the ability to search for specific cocktails.<br><br>
+  Be sure to disable any pop-up blockers to access food recipes since they are displayed as a pop-up. Drink recipes open in a new tab therefore can be accessed with or without a pop-up blocker.<br><br>
   https://tbgolfer86.github.io/Recipe-Finder/
 
   ![Screenshot of Food And Drink Recipe Finder](./assets/images/preview-blank.png)
